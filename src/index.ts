@@ -19,7 +19,7 @@ app.use(express.json());
 
 
 app.get("/health",async (req:Request,res:Response) => {
-  res.send({message:"hello world"})
+  res.sendStatus(200)
 })
 
 
