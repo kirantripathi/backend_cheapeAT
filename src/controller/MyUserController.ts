@@ -3,7 +3,7 @@ import User from "../model/user.model";
 
 
 const getCurrentUser = async (req: Request, res: Response) => {
-  console.log("get api called") 
+
   
   try {
    
